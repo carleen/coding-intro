@@ -18,11 +18,11 @@ print("Enter a number:")
 n = int(input().strip())
 
 #Creates an initial string of spaces of n length
-for i in range(1, n+1):
+for ii in range(1, n+1):
     string = string + ' '
 
 #Removes the first space from the string, adds a # to the end
-for i in range(1, n+1):
+for ii in range(1, n+1):
     string = string[1:]
     string = string + '#'
     print(string)
